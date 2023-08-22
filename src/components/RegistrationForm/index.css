@@ -1,0 +1,77 @@
+.RegistrationContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 160px;
+}
+.heading {
+  font-family: 'roboto';
+  font-size: 32px;
+  font-weight: 700;
+  color: #ea580c;
+  align-self: center;
+}
+.label {
+  font-family: 'roboto';
+  font-size: 12px;
+  font-weight: 700;
+  color: #9aa5b1;
+}
+.FirstNameContainer {
+  margin: 10px;
+}
+.input {
+  outline: none;
+  margin-top: 10px;
+  width: 90%;
+}
+.secContainer {
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  width: 290px;
+  padding: 30px;
+  align-self: center;
+}
+.button {
+  background-color: #ea580c;
+  border: none;
+  color: white;
+  cursor: pointer;
+  height: 24px;
+  width: 80px;
+  margin-top: 10px;
+  margin-left: 70px;
+}
+.error {
+  align-self: start;
+  font-size: 14px;
+  font-weight: 800;
+  margin-top: 3px;
+  margin-bottom: 0px;
+  font-family: 'roboto';
+  line-height: 16px;
+  color: #ff0b37;
+}
+.btn {
+  background-color: #ea580c;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 10px;
+  height: 24px;
+  width: 160px;
+  margin-top: 10px;
+  border-radius: 06px;
+}
+.success {
+  height: 60px;
+}
+.submit {
+  color: black;
+  font-size: 12px;
+  font-weight: 700;
+}
+.secContainer1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
